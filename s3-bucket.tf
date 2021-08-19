@@ -1,6 +1,6 @@
 module "s3-bucket" {
-  source  = "app.terraform.io/garrett-training/s3-bucket/aws"
-  version = "2.7.0"
-  # insert required variables here
-  bucket_prefix = "garrettcoates111"
+  source  = "terraform-aws-modules/s3-bucket/aws"
+  version = "2.2.0"
+  # insert the 5 required variables here
+  bucket_prefix = "garrettcoates"
 }
